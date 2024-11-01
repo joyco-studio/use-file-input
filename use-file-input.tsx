@@ -33,7 +33,6 @@ export const useFileInput = ({ onUpload, inputProps = {} }: FileInputProps): Fil
 
   return useMemo(
     () => ({
-      handleFileChange,
       handleClick,
       input: (
         <input
